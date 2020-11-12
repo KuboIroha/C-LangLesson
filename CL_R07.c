@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+void main(void) {
+int score;
+
+printf("ì_êîÇì¸óÕÇµÇƒÇ≠ÇæÇ≥Ç¢ÅF");
+scanf("%d", &score); 
+
+if (score >= 80) {
+    printf("ê¨ê—ÇÕÇ`Ç≈Ç∑ÅB\n"); 
+    } else if (score >= 70) {
+        printf("ê¨ê—ÇÕÇaÇ≈Ç∑ÅB\n");
+        } else if (score >= 60) {
+            printf("ê¨ê—ÇÕÇbÇ≈Ç∑ÅB\n"); 
+            } else {
+                printf("ê¨ê—ÇÕÇcÇ≈Ç∑ÅB\n"); 
+            }
+} 
