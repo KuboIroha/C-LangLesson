@@ -5,7 +5,13 @@ void main(void) {
     int i;
     printf("åJÇËï‘ÇµÅ@Ç±Ç±Ç©ÇÁ\n");
     
-    for (i=1; i<=3; i++){
+    for (i=1; i<=5; i++){
+        if( i == 3 )
+        {
+            continue;
+            printf("iÇ™3Ç≈Ç∑ÇÊ");
+            //Ç±ÇÃprintfé¿çsÇ≥ÇÍÇ»Ç¢ÇÒÇ≈Ç∑ÇÊÇÀ
+        }
         printf("åJÇËï‘Çµ%dâÒñ⁄\n",i);
     }
 
