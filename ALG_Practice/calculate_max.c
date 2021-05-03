@@ -32,5 +32,5 @@ int main(void) {
 
   //結果を表示
   printf("max = %20g\n", max(x,y));
-  //return 0; ここのリターン処理は...何？
+  return 0;
 }
